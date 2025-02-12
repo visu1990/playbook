@@ -1,6 +1,6 @@
 ---
 - name:  update the  web server
-  hosts:  192.168.1.85
+  hosts:  all
   remote_user: root
   tasks:  
       - name:   apache  is the latest  version 

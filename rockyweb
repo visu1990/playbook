@@ -1,7 +1,6 @@
 ---
 - name:  update the  web server
-  hosts:  webserver
-  remote_user: root
+  hosts:  all
   tasks:  
       - name:   apache  is the latest  version 
         ansible.builtin.yum: 
